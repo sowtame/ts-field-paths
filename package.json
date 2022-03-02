@@ -1,0 +1,21 @@
+{
+  "name": "ts-field-paths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sowtame",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
