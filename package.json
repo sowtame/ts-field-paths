@@ -1,15 +1,29 @@
 {
   "name": "ts-field-paths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --emitDeclarationOnly"
   },
-  "keywords": [],
+  "keywords": [
+    "typeScript",
+    "strong typing",
+    "nested",
+    "path",
+    "object"
+  ],
   "author": "sowtame",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.2"
-  }
+  },
+  "repository": "https://github.com/sowtame/ts-field-paths",
+  "homepage": "https://github.com/sowtame/ts-field-paths",
+  "include": [
+    "dist"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

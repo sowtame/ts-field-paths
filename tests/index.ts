@@ -18,16 +18,19 @@ interface IPerson {
   children: IChildren[]
   nestedChildren: IChildren[][]
   extraNestedChildren: IChildren[][][]
-  favoriteNames: ['Stepa', 'Karina', 'Katy']
+  favoriteNames: ['Stepan', 'Karina']
   anyArrData: string[]
   result: ResultEnum
 }
 
 const index = 0
-const testPersonPathFIeld = (field: FieldPath<IPerson>) => {}
+const getPersonProperty = (field: FieldPath<IPerson>) => {
+  // used for example in lodash get _.get(path)
+}
 
-testPersonPathFIeld(`children[${index}].name`)
-testPersonPathFIeld(`anyArrData[0]`)
-testPersonPathFIeld('nestedChildren[0][0]')
-testPersonPathFIeld('extraNestedChildren[0][0][0].name')
-testPersonPathFIeld('adress')
+getPersonProperty('adress.city')
+getPersonProperty(`children[${index}].name`)
+getPersonProperty('anyArrData[0]')
+getPersonProperty('nestedChildren[0][0]')
+getPersonProperty('extraNestedChildren[0][0][0].name')
+getPersonProperty('adress')
