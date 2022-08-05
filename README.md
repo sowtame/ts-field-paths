@@ -13,6 +13,8 @@ yarn add -D ts-field-paths
 
 This library uses Template Literal Types, so TypeScript 4.1<= is required
 
+<br/>
+
 ### 🐇 Quick start
 
 ```jsx
@@ -42,7 +44,7 @@ This library uses Template Literal Types, so TypeScript 4.1<= is required
     }
 
     const index = 0
-    const getPersonProperty = (field: FieldPath<IPerson>) => {
+    const getPersonProperty = (path: FieldPath<IPerson>) => {
       // used for example in lodash get _.get(path)
     }
 
@@ -57,3 +59,7 @@ This library uses Template Literal Types, so TypeScript 4.1<= is required
 ### ✨ Awesome autocomplete
 
 <img src="./docs/autocomplete_screenshot.jpg" alt="autocomplete screenshot" />
+
+### 💎 Strongly typed
+
+<img src="./docs/strongly_typed_screenshot.jpg" alt="strongly typed screenshot" />
